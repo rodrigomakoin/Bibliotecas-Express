@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projeto AEP</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <style>
+      html {
+        background: url(https://w.wallhaven.cc/full/rd/wallhaven-rd277w.png);
+      }
+      
+    </style>
+    <center>
+    <h1>Cadastro de livros</h1>
+    <p>Welcome to <%= title %></p>
+   
+    
+    <form style="margin: auto; width: 220px;" name="form1" method="POST" action="/submit_form">
+      <tr>
+      <input type="text"  placeholder="Nome do livro" />
+      </tr>
+      <p>
+        <input type="text" placeholder="Autor"/>
+      </p>
+      <p>
+        <input type="text" placeholder="Editora"/>
+      </p>
+      <p>
+        <input type="date" placeholder="Ano"/>
+      </p>
+      
+      <input type="submit" values="cadastrar" />
+      
+     
+    </form>
+  </center>
+  </body>
+</html>
